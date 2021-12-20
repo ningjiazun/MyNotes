@@ -1,0 +1,14 @@
+ Firefox彻底禁用自动更新提示
+
+安装目录下新建文件夹：distribution
+
+新建文件：policies.json
+
+文件内容为：
+
+{
+  "policies": {
+    "DisableAppUpdate": true
+  }
+}
+
